@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.sidebar
+{
+    position: fixed;
+    display: inline block;
+    top: 0px;
+    background-color: black;
+    /* color: white; */
+    height: 100vh;
+    padding: 20px 20px;
+    width: 300px;
+}
+.item
+{
+    text-decoration: none;
+    right: 0px;
+    padding: 15px 30px;
+}
+.item a{text-decoration: none;color: white;font-family: 'Russo One', sans-serif;}
+.item a:hover{color: white;}
+.sidebar h1{padding: 20px 10px;font-family: 'Bebas Neue', cursive;}
+.interests{
+    position: relative;
+    background: linear-gradient(110deg, #ecec0f 60%, #bcaf3d 60%);
+    width: 80vw;
+    height: 330px;
+}
+.interests a b,h3{color: black;}
+
+.interest
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    padding: 20px 20px;
+    margin: 30px 20px;
+}
+.logo:hover{cursor: pointer;}
+.item:hover
+{
+    background-color: rgb(89, 86, 86);
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.item a:hover{color: rgb(239, 251, 25);}
+.title h3{padding: 20px 30px; color: #ecec0f; margin-bottom: 0px;font-family: 'Bebas Neue', cursive;}
+.Playlist{height: 400px;width: 80vw ;}
+.document{display: flex;}
+.Playlist h3{margin-bottom: 0px;font-family: 'Bebas Neue', cursive;}
+.container1{
+    width: 20vw;
+    background-color: rgb(0, 0, 0);
+    height: 1200px;
+}
+.interests h3{height: 50px;padding: 40px 40px;margin-bottom: 0px;font-family: 'Bebas Neue', cursive;}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: rgb(20, 20, 20);
+    height: 1470px;
+}
+.footer2 h3{color: white;}
+.songlist
+{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(20, 20, 20);
+}
+.songItem{
+    height: 50px;
+    width: 1130px;
+    background-color: rgb(20, 20, 20);
+    padding: 10px 30px;
+}
+
+.songItem span{font-size: 13px;}
+
+.songItem span
+{
+    margin: 0px 50px;
+}
+.sname
+{
+    width: 100px;
+    margin: 0px 30px;
+}
+.sno{width: 20px;}
+.singer{width: 100px;}
+.duration{width: 20px;}
+.songItem:hover{
+    background-color: rgb(57, 56, 56);
+    border-radius: 3px;
+}
+
+.songItem span{font-family: 'Prompt', sans-serif;}
+.songTableInfo .title,.songcover,.artist,.songname,.duration2{
+    width: 100px;
+    padding: 0px 35px;
+    font-family: 'Russo One', sans-serif;
+}
+.duration2{padding: 0px 50px;}
+.songbar
+{
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    border: none;
+    background-color: rgb(40, 36, 36);
+    height: 100px;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;align-items: center;
+}
+.songinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-pause
+{
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;
+}
+.songinfo,.seekbar,.functionalities{padding: 0px 50px;display: flex;justify-content: center;align-items: center;}
+
+.playbar .cont{left: 0;color: black;}
+.icons i{padding: 0px 30px;}
+
+.songinfo img,span,i{padding: 5px;}
+
+.icons{display: flex;justify-content: center;padding-left: 40px;padding-right: 50px; ;}
+
+.seek-bar{width: 500px;
+    position: relative;
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(86, 82, 82);
+}
+.songinfo{padding-left: 50px;}
+.seek-bar::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgb(232, 236, 13);
+}
+.songinfo{left: 0px;}
+.footer
+{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: black;
+    margin-top:300px;
+    padding: 20px 20px ;
+    list-style: none;
+}
+.footer2{padding-left: 25px;}
+.copyright{text-align: center;padding: 20px;}
+.add{font-size: 10px;}
+.footer h4{width:20vw;}
+.f1{font-size: 10px; padding-left: 30px;}
+.songinfo{width: 400px;}
+.interest a {text-decoration: none;}
+
+

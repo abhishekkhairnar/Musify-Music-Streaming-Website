@@ -1,0 +1,17 @@
+*{color: white;}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.T-conainer2{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width:80vw;
+    padding: 40px 40px;
+    background: linear-gradient(110deg, #ecec0f 60%, #bcaf3d 60%);
+}
+.T-conainer2 h1{    
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 20px;
+}
